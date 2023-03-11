@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blackjack Basic Strategy</title>
+  <link rel="stylesheet" href="blackjack.css">
+  <link rel="shortcut icon" type="x-icon" href="blackjack.ico">
+</head>
+<body>
+  <header>
+    <h1>Blackjack Basic Strategy</h1>
+    <a href="./index.html" class="home-button">Home</a>
+  </header>
+  <form>
+    <label for="card1">Card 1:</label>
+    <select id="card1">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="A">A</option>
+    </select>
+
+    <label for="card2">Card 2:</label>
+    <select id="card2">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="A">A</option>
+    </select>
+
+    <label for="dealerUpcard">Dealer Upcard:</label>
+    <select id="dealerUpcard">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="A">A</option>
+    </select>
+
+    <button type="button" onclick="displayRecommendedAction()">Show Recommended Action</button>
+  </form>
+
+  <div id="recommendedAction"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

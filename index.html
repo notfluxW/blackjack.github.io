@@ -1,60 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Blackjack Basic Strategy</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="x-icon" href="blackjack.ico">
-</head>
-<body>
-  <h1>Blackjack Basic Strategy</h1>
-  <form>
-    <label for="card1">Card 1:</label>
-    <select id="card1">
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="A">A</option>
-    </select>
-
-    <label for="card2">Card 2:</label>
-    <select id="card2">
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="A">A</option>
-    </select>
-
-    <label for="dealerUpcard">Dealer Upcard:</label>
-    <select id="dealerUpcard">
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="A">A</option>
-    </select>
-
-    <button type="button" onclick="displayRecommendedAction()">Show Recommended Action</button>
-  </form>
-
-  <div id="recommendedAction"></div>
-
-  <script src="script.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>The Golden Touch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="x-icon" href="blackjack.ico">
+  </head>
+  <body>
+    <header class="titleh1">
+        <div class="logo-container">
+            <img src="pips.png" alt="Left Image" class="logo-image" />
+            <h1>The Golden Touch</h1>
+            <img src="pips.png" alt="Right Image" class="logo-image" />
+        </div>
+    </header>      
+    <main>
+      <div class="button-box">
+        <div class="button-header">
+          <header class="titleh2">
+            <h2>Choose an Option</h2>
+          </header>
+        </div>
+        <div class="button-menu">
+          <a href="./blackjack.html" class="button">Blackjack</a>
+          <a href="./comingsoon.html" class="button">Roulette</a>
+          <a href="./comingsoon.html" class="button">Special Offers</a>
+          <!-- Add more links as needed -->
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
