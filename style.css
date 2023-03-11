@@ -119,4 +119,28 @@ body {
     }
   }
   
+  .home-button {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #0066CC;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: background-color 0.3s ease;
+  }
   
+  .home-button:hover {
+    background-color: #ccc;
+ }
