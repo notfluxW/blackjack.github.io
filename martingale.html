@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Martingale Strategy Calculator</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
+    <link rel="stylesheet" type="text/css" href="martingale.css">
+</head>
+<body>
+	<a href="./" class="home-button">Home</a>
+	<div class="main" id="main">
+		<h1>Martingale Strategy Calculator</h1>
+		<form id="martingale-form">
+			<label for="basic-bet">Basic Bet:</label>
+			<input type="number" id="basic-bet" name="basic-bet" min="1" required>
+			<label for="win-multiplier">Win Multiplier:</label>
+			<input type="number" id="win-multiplier" name="win-multiplier" min="2" required>
+			<label for="num-rounds">Number of Rounds:</label>
+			<input type="number" id="num-rounds" name="num-rounds" min="1" required>
+			<input type="submit" id="calculate-btn" value="Calculate!" disabled>
+		</form>
+	</div>
+    <div class="results" id="results">
+        <h2>Results</h2>
+        <ul id="results-list">
+        </ul>
+    </div>
+    <script type="text/javascript" src="martingale.js"></script>
+    </body>
+</html>
